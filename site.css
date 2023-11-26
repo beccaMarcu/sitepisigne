@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 49px;
+    letter-spacing: 4px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    background-color: #b679f0;
+    text-align: center;
+}
+
+.imagelsf {
+    width: 15vw;
+    height: 10vh;
+    align-items: left;
+}
+
+
+.alinea {
+    text-indent: 3%;
+    width: calc(100% - 140px)
+}
+
+.titres {
+    width: calc(100% - 140px)
+}
+
+
+p {
+    font-size: calc(15px + 0.390625vw);
+}
+
+
+
+body {
+    display: flex;
+    width: 100%;
+
+}
+
+.menu {
+
+    background-color: rgb(202, 176, 250);
+    width: 15%;
+    height: 100vh;
+
+}
+
+body {
+    font-size: calc(15px + 0.390625vw);
+    text-size-adjust: auto;
+}
+
+.videointro {
+    float: right;
+}
+
+
+
+main {
+
+    background-color: rgb(188, 136, 236);
+    min-width: 50%;
+    min-height: 80%;
+    font-size: 16px;
+
+}
+
+.imageref {
+    max-width: 40vw;
+    max-height: 40vh;
+
+}
+
+.cours {
+    display: inline-block;
+    max-height: 40vh;
+    max-width: 50vw;
+
+}
+
+h2 {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+}
+
+
+footer {
+    background-color: rgb(212, 168, 248);
+    height: 10vh;
+    width: calc(100% - 140px)
+}
+
+table,
+td,
+th {
+
+    background-color: rgb(199, 178, 238);
+    border: 1px solid;
+    border-radius: 6px;
+    width: calc(100% - 140px);
+    object-fit: contain;
+}
